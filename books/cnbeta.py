@@ -11,8 +11,8 @@ class cnbeta(BaseFeedBook):
     language              = 'zh-cn'
     feed_encoding         = "utf-8"
     page_encoding         = "utf-8"
-    deliver_times         = [5,17] #5:00,17:00两次推送
-    oldest_article        = 43200 #12*60*60
+    # deliver_times         = [5,17] #5:00,17:00两次推送
+    oldest_article        = 1 #12*60*60
     mastheadfile          = "mh_cnbeta.gif"
     coverfile             = "cv_cnbeta.jpg"
     network_timeout       = 60

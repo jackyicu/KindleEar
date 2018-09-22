@@ -22,8 +22,8 @@ class Xueqiu(BaseFeedBook):
     page_encoding         = "utf-8"
     mastheadfile          = "mh_xueqiu.gif"
     coverfile             = "cv_xueqiu.jpg"
-    deliver_times         = [5,17] #5:00,17:00两次推送
-    oldest_article        = 43200 #12*60*60
+    # deliver_times         = [5,17] #5:00,17:00两次推送
+    oldest_article        = 1 #optional seconds 12*60*60
     fulltext_by_readability = False
 
     remove_tags = ['meta']
